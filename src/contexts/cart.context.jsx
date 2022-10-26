@@ -1,3 +1,5 @@
+// NOTE: This is not used currently. This logic is moved to redux store.
+
 import { createContext, useReducer } from "react";
 import { createAction } from "../utils/reducer/reducer.util";
 

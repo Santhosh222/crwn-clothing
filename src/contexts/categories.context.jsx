@@ -1,3 +1,5 @@
+// NOTE: This is not used currently. This logic is moved to redux store.
+
 import { createContext, useEffect, useState } from 'react';
 import { getCategoriesAndDocuments } from '../utils/firebase/firebase.utils';
 
@@ -15,7 +17,7 @@ export const CategoriesProvider = ({children}) => {
     }
 
     getCategoryMap();
-  }, [])
+  }, []);
   
 
   const value = { categoriesMap };

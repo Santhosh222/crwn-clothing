@@ -1,3 +1,5 @@
+// NOTE: This is not used currently. This logic is moved to redux store.
+
 import { useEffect, useReducer } from 'react';
 import { createContext } from 'react';
 import { createUserDocumentFromAuth, onAuthStateChangedListener } from '../utils/firebase/firebase.utils';
